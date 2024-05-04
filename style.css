@@ -25,6 +25,46 @@
     height: auto;
 }
 
+/* CSS for Flexbox Layout */
+.navbar {
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: space-between; /* Align elements at extremes */
+    align-items: center; /* Align vertically */
+    padding: 10px; /* Add padding */
+}
+
+.navbar-home {
+    color: #7BCDF4; /* Set text color to white */
+    font-size: 1.2em; /* Adjust font size */
+    font-family: 'Franxurter Totally', sans-serif;
+    padding: 8px; /* Padding to match existing style */
+}
+
+.navbar-links {
+    display: flex; /* Horizontal layout for list */
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.navbar-links li {
+    margin-left: 15px; /* Add space between list items */
+}
+
+.navbar-links a {
+    color: #7BCDF4 ; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+    padding: 14px 16px; /* Padding to match existing style */
+    text-align: center; /* Center the text */
+}
+
+.navbar-links a:hover {
+    text-decoration: none;
+    color: #23053c; /* Text color on hover */
+}
+
+
+/*
 ul {
     display: inline;
     list-style-type: none;
@@ -46,12 +86,12 @@ a {
 
 li a {
     display: block;
-    /*color: white;*/
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
+*/
 .logo-image{
     width: 46px;
     height: 46px;

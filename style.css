@@ -1,0 +1,45 @@
+.background-gradient-caspercondom {
+    background: rgb(57,4,226);
+    background: -moz-linear-gradient(180deg, rgba(57,4,226,1) 0%, rgba(35,5,60,1) 85%);
+    background: -webkit-linear-gradient(180deg, rgba(57,4,226,1) 0%, rgba(35,5,60,1) 85%);
+    background: linear-gradient(180deg, rgba(57,4,226,1) 0%, rgba(35,5,60,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3904e2",endColorstr="#23053c",GradientType=1);
+    background-repeat: no-repeat;
+    min-height: 1080px;
+    
+}
+
+.logo-casper-condom {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 20%;
+    margin-left: 20%;
+    width: auto;
+    height: auto;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    float: right;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+  }
+
+a {
+    display: inline;
+    padding: 8px;
+}
+
+li a {
+    display: block;
+    /*color: white;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

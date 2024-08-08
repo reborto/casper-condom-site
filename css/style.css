@@ -23,8 +23,6 @@
 }
 
 .topnav {
-  display: flex;
-  justify-content: flex-end;
   background-color: rgba(0,0,0,0.0);
   overflow: hidden;
 }
@@ -34,22 +32,27 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1rem;
+  float: right;
+  display: block;
   color: #7BCDF4;
   text-align: center;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
+  background-color: rgba(0,0,0,0.0);
   color: #23053c;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
+/* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: rgba(0,0,0,0.0);
-  color: #7BCDF4 !important; 
-  font-size: 1.3em; /* Adjust font size */
+  color: #7BCDF4 !important;
+  font-size: 1.3em; 
   font-family: 'Franxurter Totally Medium', sans-serif;
-  margin-right: auto; 
+  float: left;
+  display: block;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -66,7 +69,6 @@
 
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {

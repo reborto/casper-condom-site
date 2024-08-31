@@ -120,6 +120,11 @@ footer {
   margin: 0 10px; /* Space out the logos */
 }
 
+.footer-logo-rt-toys {
+  width: 70px; /* Adjusted size for better layout */
+  height: 70px;
+  margin: 0 10px; /* Space out the logos */
+}
 .footer-text span {
   font-size: 0.9rem; /* Slightly smaller text for the footer */
 }

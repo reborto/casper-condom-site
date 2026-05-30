@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caspercondom.it/sitemap.xml

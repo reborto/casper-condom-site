@@ -289,3 +289,13 @@ footer {
     padding-right: 2rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  .background-gradient-caspercondom {
+    background-color: rgba(35,5,60,1);
+  }
+}
